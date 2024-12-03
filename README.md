@@ -46,3 +46,21 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Content Collections
+
+Haremos un ejemplo de como usar los content collections
+
+- Si no te cargan los types del collections ejecuta `npx astro sync`
+
+### ¿Cuándo usar `npx astro sync`?
+
+1. **Después de crear, eliminar o modificar rutas dinámicas.**
+2. **Si recibes errores de tipos inesperados relacionados con tus rutas en TypeScript.**
+3. **Cuando trabajas en un entorno donde las rutas dinámicas deben ser procesadas correctamente**, como al trabajar con TypeScript en el editor.
+
+Este comando es esencial para mantener las definiciones de tipos actualizadas y garantizar una experiencia de desarrollo fluida en Astro.
+
+## Podemos renderizar el contenido
+
+Utilizando el <Content />
